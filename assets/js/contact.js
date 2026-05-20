@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (webhookConfigured) {
       try {
         console.log("🚀 Sending payload to Make.com:", payload);
-        
+
         // Send payload according to webhook-contract.md
         const response = await fetch(WEBHOOK_URL, {
           method: 'POST',
@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function collect(form) {
   const subjectKey = form.querySelector('#contact-subject')?.value || '';
   const now = new Date();
-  
+
   // Format DD.MM.YYYY
   const dateStr = `${now.getDate()}.${now.getMonth() + 1}.${now.getFullYear()}`;
   // Format HH:MM
