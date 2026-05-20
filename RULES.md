@@ -97,4 +97,3 @@ Also frozen: every `<meta>` tag, `og:*`, `twitter:*`, `<link rel="canonical">`, 
 1. **NO BACKEND CODE:** No Node.js, no Express, no local servers. This is a 100% static site.
 2. **Default allowed skills:** architecture, frontend-api-integration, debugging-strategies.
 3. **NEVER delegate to community skills for:** Legal wording, privacy, therapist claims, or brand voice decisions. Always escalate to the user.
-
